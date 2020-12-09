@@ -64,7 +64,7 @@ The JWT that we received from the server can be seen to have a claim for the use
 
 <br>
 <p align="center">
-<img src="./img/JWT_Decoded.png" alt="JWT_Decoded"/><br>
+<img src="./img/JWT_decoded.png" alt="JWT_Decoded"/><br>
 <i>Contents of the JWT received from the login page of the Challenge</i>
 </p>
 <br>
