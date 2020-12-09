@@ -151,7 +151,7 @@ _Viola_, we have successfully logged in and received the flag, `govtech-csg{5!gN
 
 ## <u>Conclusion</u>
 
-JWTs may be a basic concept to those with experience in the Web Industry, and this challenge may seem easy, but it took us hours of thinking, experimenting, researching, and _maybe_ some whisky, to crack. Overall, it was a really fun and interesting experience! The satisfaction of completing a challenge that you took hours to complete is hard to beat.
+JWTs may be a basic concept to those with experience in the Web Industry, and this challenge may seem easy, but it took us hours of thinking, experimenting, researching, and _maybe_ some whisky, to crack. Overall, it was a really fun and interesting experience! The _satisfaction_ of completing a challenge that you took hours to solve is hard to beat.
 
 If you found the challenge to be...well..._challenging_, don't worry, we did too. Everyone starts from somewhere, and each time you fail, you learn something new. Participating in more CTFs and similar events help expose you to many things you would never have known or seen, as well as occasionally introducing you to some great new tools!
 
