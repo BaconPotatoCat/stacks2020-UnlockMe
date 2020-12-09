@@ -88,7 +88,7 @@ We decided to try inspecting the element of the login page, and noticed this lit
 </p>
 <br>
 
-This was surely a hint. Alright, so now we know the vulnerability had something to do with the Public Key used to sign the JWT. This led to us wondering, how do we get the Public Key? An idea popped into our heads; What if we just tried to access the resource directly on the website? We entered ```http://yhi8bpzolrog3yw17fe0wlwrnwllnhic.alttablabs.sg:41031/public.pem``` and promptly received a download for their public key.
+This was surely a hint. Alright, so now we know the vulnerability had something to do with the Public Key used to sign the JWT. This led to us wondering; How do we get the Public Key? An idea popped into our heads; What if we just tried to access the resource directly on the website? We entered ```http://yhi8bpzolrog3yw17fe0wlwrnwllnhic.alttablabs.sg:41031/public.pem``` and promptly received a download for their public key.
 
 Now we had the key, but we still had no idea what to do with it. After doing some research, we discovered that JWTs indeed had a few vulnerabilities that could be exploited. More specifically, we would be exploiting the signing algorithm defined in the header. Notice how the JWT we decoded from the login page shows that RS256 was used to sign it.
 
